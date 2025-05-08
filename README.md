@@ -18,18 +18,18 @@ cd poll_app_v1
 // Example .env file
 REDIS_CONNECTION_STRING = redis://username:password@redis-11983.c274.us-east-1-3.ec2.cloud.redislabs.com:11983
 ```
-5. Run `npm install` for all folders{
-    5.1 cd pollboard-frontend-main
-    5.11 cd pollboard-frontend-main
-    5.12 npm install
+5. Run `npm install` for all folders{<br>
+    5.1 cd pollboard-frontend-main<br>
+    5.11 cd pollboard-frontend-main<br>
+    5.12 npm install<br>
 
-    5.2 cd server
-    5.21 cd pollboard-backend-main
-    5.22 npm install
+    5.2 cd server<br>
+    5.21 cd pollboard-backend-main<br>
+    5.22 npm install<br>
 
-    5.3 cd server
-    5.31 cd pollboard-socket-service-main
-    5.32 npm install
+    5.3 cd server<br>
+    5.31 cd pollboard-socket-service-main<br>
+    5.32 npm install<br>
 }
 
 6. Run the command `npm run dev` in all the folders
