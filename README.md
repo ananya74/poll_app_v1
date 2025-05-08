@@ -23,11 +23,11 @@ REDIS_CONNECTION_STRING = redis://username:password@redis-11983.c274.us-east-1-3
     5.11 cd pollboard-frontend-main<br>
     5.12 npm install<br>
 
-    5.2 cd server<br>
+    5.2 cd pollboard-backend-main<br>
     5.21 cd pollboard-backend-main<br>
     5.22 npm install<br>
 
-    5.3 cd server<br>
+    5.3 cd pollboard-socket-service-main<br>
     5.31 cd pollboard-socket-service-main<br>
     5.32 npm install<br>
 }
@@ -35,5 +35,9 @@ REDIS_CONNECTION_STRING = redis://username:password@redis-11983.c274.us-east-1-3
 6. Run the command `npm run dev` in all the folders
 
 ### Prerequisites
-> Node.js 
+> Node.js
+
+### Output
+
+
 
