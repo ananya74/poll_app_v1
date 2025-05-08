@@ -11,14 +11,27 @@ As you guessed it is the frontend application build with React as a SPA. It uses
 ## How to run it locally?
 1. git clone <repo-url>
 cd poll_app_v1
-2. Create a `.env` file in the API service root directory
-3. Create a `.env` file in the Socket service root directory
+2. Create a `.env` file in the API service root directory(pollboard-backend-main)
+3. Create a `.env` file in the Socket service root directory(pollboard-socket-service-main) inside backend 2
 4. Both env file should have the Redis connection string with the name `REDIS_CONNECTION_STRING`
 ```
 // Example .env file
 REDIS_CONNECTION_STRING = redis://username:password@redis-11983.c274.us-east-1-3.ec2.cloud.redislabs.com:11983
 ```
-5. Run `npm install` for all folders
+5. Run `npm install` for all folders{
+    5.1 cd pollboard-frontend-main
+    5.11 cd pollboard-frontend-main
+    5.12 npm install
+
+    5.2 cd server
+    5.21 cd pollboard-backend-main
+    5.22 npm install
+
+    5.3 cd server
+    5.31 cd pollboard-socket-service-main
+    5.32 npm install
+}
+
 6. Run the command `npm run dev` in all the folders
 
 ### Prerequisites
